@@ -1,13 +1,14 @@
-<?PHP
-$saveTime = (1234567890+3600); // Saved time from file/database
-$thisTime = time(); // Current time
-$diffTime = (saveTime-thisTime); // Difference in time
-
-  if($diffTime >= 1) {
-    $countMin = floor(diffTime/60);
-    $countSec = (diffTime-(countMin*60));
-    echo 'Time remaining until next run is in ',$countMin,' minute(s) ',$countSec,' seconds';
-  } else {
-    echo 'Timer expired.';
-  }
-?>
+<html>
+ <head>
+  <title>My First Deploy PHP on OpenSHIFT</title>
+ </head>
+ <body>
+ <?php 
+  $page = $_SERVER['PHP_SELF'];
+  $sec = "10";
+  echo '<p>Hello World v10</p>';
+  echo '<p>App Server:</p>'gethostname();
+  echo '<p>Contador Aleatorio:</p>'rand() . "\n";
+ ?>
+ </body>
+</html>
