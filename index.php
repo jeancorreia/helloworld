@@ -4,5 +4,6 @@
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
+ <?php echo gethostname(); ?>
  </body>
 </html>
