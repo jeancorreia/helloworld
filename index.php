@@ -1,5 +1,6 @@
  <?php 
-
+    $server = gethostname();
+    $nro = rand();
     $alpha = ["a","b","c","d","e","f","0","1","2","3","4","5","6","7","8","9"];
     $color = "#";
     for ($i=0; $i<6; $i++) {
@@ -10,8 +11,8 @@
   $page = $_SERVER['PHP_SELF'];
   $sec = "10";
   echo '<p>Hello World v11</p>';
-  echo '<p>App Server:</p>' . gethostname();
-  echo '<p>Contador Aleatorio:</p>' . rand() . "\n";
+  echo '<p>App Server:</p>' . $server;
+  echo '<p>Contador Aleatorio:</p>' . $nro . "\n";
  ?>
 <html>
  <head>
