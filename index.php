@@ -10,7 +10,7 @@
 
   $page = $_SERVER['PHP_SELF'];
   $sec = "5";
-  echo "<p>Hello World v21 </p>";
+  echo "<p><h2>Hello World v21</h2></p>";
   echo "<p>App Server:" . $server . "</p>";
   echo "<p>Contador Aleatorio:" . $nro . "</p>";
  ?>
@@ -20,5 +20,6 @@
   <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
  </head>
  <body style="background:<?php echo $color ?>">
+ <h2>Hello World v20</h2>
  </body>
  </html>
