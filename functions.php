@@ -4,7 +4,7 @@
 
 function displayBackground()
 {
-	$dir = 'backgrounds/';
+	$dir = '/';
 	$cnt = 0;
 	$bgArray= array();
 		
