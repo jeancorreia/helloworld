@@ -10,7 +10,7 @@
 
   $page = $_SERVER['PHP_SELF'];
   $sec = "5";
-  echo "<p>Hello World v20 </p>";
+  echo "<p>Hello World v21 </p>";
   echo "<p>App Server:" . $server . "</p>";
   echo "<p>Contador Aleatorio:" . $nro . "</p>";
  ?>
