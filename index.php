@@ -9,9 +9,9 @@
 
   $page = $_SERVER['PHP_SELF'];
   $sec = "10";
-  echo '<p>Hello World v10</p>';
-  echo '<p>App Server:</p>',gethostname();
-  echo '<p>Contador Aleatorio:</p>',rand() . "\n";
+  echo '<p>Hello World v11</p>';
+  echo '<p>App Server:</p>' . gethostname();
+  echo '<p>Contador Aleatorio:</p>' . rand() . "\n";
  ?>
 <html>
  <head>
@@ -19,6 +19,5 @@
   <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
  </head>
  <body style="background:<?php echo $color ?>">
-        <?php echo $color ?>
  </body>
  </html>
