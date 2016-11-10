@@ -1,7 +1,7 @@
  <?php 
   $page = $_SERVER['PHP_SELF'];
   $sec = "10";
-  include 'background.php';
+  include 'functions.php';
   $func = 'displayBackground';
   $func();        // This calls foo()
   echo '<p>Hello World v10</p>';
