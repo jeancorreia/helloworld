@@ -10,9 +10,9 @@
 
   $page = $_SERVER['PHP_SELF'];
   $sec = "5";
-  echo "Hello World v19";
-  echo "App Server:" . $server;
-  echo "Contador Aleatorio:" . $nro . "\n";
+  echo "<p>Hello World v19 </p>";
+  echo "<p>App Server:" . $server . "</p>";
+  echo "<p>Contador Aleatorio:" . $nro . "</p>";
  ?>
 <html>
  <head>
